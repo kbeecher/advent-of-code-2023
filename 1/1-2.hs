@@ -42,12 +42,6 @@ firstDigit s  = getDigit s
 lastDigit :: String -> Int
 lastDigit s = getDigitReverse s
 
-
--- Get rightmost numString
--- Get leftmost digit
--- If both: return right-most
-
-
 calculateLine :: String -> Int
 calculateLine s = firstDigit(s) * 10 + lastDigit(s)
 
